@@ -7,6 +7,7 @@
   <title>Hockeys</title>
   <!-- CDN iocn link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- daisyUI 4.6.0 CSS file + Tailwind CSS CDN script: -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -23,6 +24,7 @@
             'color-primary' : 'rgba(188, 237, 109, 0.10)',
             'color-primary-1' : 'rgba(253, 221, 95, 0.10)',
             'color-primary-2' : 'rgba(98, 156, 243, 0.10)',
+            'input-primary' : 'rgba(19, 19, 24, 0.03)',
           }
         }
       }
@@ -40,6 +42,8 @@
   </style>
 
 </head>
+
+             <!-- Responsive For Mobile M/L - 375*438[M] & 425*438[L] -->
 
 <body class="font-manrope">
   <header class="md:container md:mx-auto">
@@ -161,16 +165,15 @@
     </section>
 
     <!-- Program Hero -->
-    <!-- class="flex lg:flex-row lg:justify-between lg:ml-60" -->
     <section>
-      <div class="flex-1 lg:flex lg:justify-center lg:gap-5">
-        <div>
+      <div class="flex-1 lg:flex lg:justify-center lg:gap-5 mb-2">
+        <div class="mb-2">
           <!-- first -->
           <div class="hero">
             <img src="./Images/2.png" class="max-w-xs lg:max-w-xl rounded-lg shadow-2xl" />
             <div class="hero-content ">
-              <div class="max-w-sm lg:max-w-md text-start">
-                <h1 class="mb-1 lg:mb-5 text-xl lg:text-3xl font-extrabold text-white">Junior Program</h1>
+              <div class="ml-12 mx-10 max-w-sm lg:max-w-md text-start">
+                <h1 class=" mb-1 lg:mb-5 text-xl lg:text-3xl font-extrabold text-white">Junior Program</h1>
                 <p class="mb-1 lg:mb-5 text-sm lg:text-base font-medium text-white">USA Hockey's junior program provides opportunities for players ages 16-to-20 to hone and enhance their skills and is an important part of the organization's.</p>
                 <button class="btn text-white border-none bg-hockeys-primary px-6 py-3">Register Now!</button>
                 
@@ -183,7 +186,7 @@
           <div class="hero">
             <img src="./Images/3.png" class="max-w-xs lg:max-w-xl rounded-lg shadow-2xl" />
             <div class="hero-content ">
-              <div class="max-w-sm lg:max-w-md text-start">
+              <div class="ml-12 mx-10 max-w-sm lg:max-w-md text-start">
                 <h1 class="mb-1 lg:mb-5 text-xl lg:text-3xl font-extrabold text-white">Teenager Program</h1>
                 <p class="mb-1 lg:mb-5 text-sm lg:text-base font-medium text-white">Hockey 4 Youth is a charitable organization that provides new Canadian youth with an opportunity to play ice hockey at no cost.</p>
                 <button class="btn text-white border-none bg-hockeys-primary px-6 py-3">Register Now!</button>
@@ -200,9 +203,9 @@
     <section>
       <div>
         <div class="hero">
-          <img src="./Images/4.png" class="lg:mt-5 lg:max-w-7xl rounded-lg shadow-2xl" />
+          <img src="./Images/4.png" class="w-[317px] h-[200px] lg:h-[450px] lg:w-[1165px] lg:mt-5 rounded-lg shadow-2xl" />
           <div class="hero-content ">
-            <div class="max-w-sm lg:max-w-md text-left lg:relative lg:right-72 lg:top-20">
+            <div class="ml-12 mx-10 max-w-sm lg:max-w-md text-left lg:relative lg:right-72 lg:top-20">
               <h1 class="mb-1 lg:mb-5 text-xl lg:text-3xl font-extrabold text-white">Teenager Program</h1>
               <p class="mb-1 lg:mb-5 text-sm lg:text-base font-medium text-white">Hockey 4 Youth is a charitable organization that provides new Canadian youth with an opportunity to play ice hockey at no cost.</p>
               <button class="btn text-white border-none bg-hockeys-primary px-6 py-3">Register Now!</button>
@@ -477,51 +480,6 @@
       </div>
     </section>
 
-   <!-- Get In Touch -->
-    <section class="text-center p-20">
-      <h3 class="text-4xl font-extrabold mb-5">Get In Touch</h3>
-      <p class="font-primary text-base font-medium leading-6">Hockey is considered the national sport of India due to its popularity and outstanding performance. </p>
-    </section>
-
-    <section>
-      <div>
-        <div class="p-5 mx-12">
-            <!-- 1st --> 
-            <div class="card w-70 lg:w-96 bg-color-primary mb-5">
-              <div class="card-body">
-                <img class="w-10" src="./Images/Group 1171275317.png" alt="Phone Pic">
-                <p class="font-primary text-base font-normal leading-8">Phone Number:</p>
-                <p class="font-primary-1 text-lg font-extrabold leading-8">01733256209</p>
-                
-              </div>
-            </div>
-            <!-- 2nd -->
-            <div class="card w-70 lg:w-96 bg-color-primary-1 mb-5">
-              <div class="card-body">
-                <img class="w-10" src="./Images/Group 1171275318.png" alt="Phone Pic">
-                <p class="font-primary text-base font-normal leading-8">Gmail:</p>
-                <p class="font-primary-1 text-lg font-extrabold leading-8">hockey@gmail.com</p>
-                
-              </div>
-            </div>
-            <!-- 3rd -->
-            <div class="card w-70 lg:w-96 bg-color-primary-2">
-              <div class="card-body">
-                <img class="w-10" src="./Images/Group 1171275321.png" alt="Phone Pic">
-                <p class="font-primary text-base font-normal leading-8">Location:</p>
-                <p class="font-primary-1 text-lg font-extrabold leading-8">Bashundhara R/A</p>
-                
-              </div>
-            </div>
-          
-          
-        </div>
-        <div></div>
-      </div>
-    </section>
-
-    <!-- ------- -->
-
     <!-- FAQ -->
     <section class="mx-24 my-24">
       <div class="hero-content flex-col lg:gap-24 lg:flex-row">
@@ -534,7 +492,7 @@
               Our Equipment
             </div>
             <div class="collapse-content">
-              <p>A helmet, shoulder pads/chest protector, elbow pads, mouth guard, protective gloves, heavily padded
+              <p>A helmet, shoulder padschest protector, elbow pads, mouth guard, protective gloves, heavily padded
                 shorts, a 'jock' athletic protector, shin pads and a neck guard.</p>
             </div>
           </div>
@@ -614,6 +572,97 @@
       </div>
       </div>
     </section>
+
+
+
+   <!-- Get In Touch -->
+    <section class="text-center p-20">
+      <h3 class="text-4xl font-extrabold mb-5">Get In Touch</h3>
+      <p class="font-primary text-base font-medium leading-6">Hockey is considered the national sport of India due to its popularity and outstanding performance. </p>
+    </section>
+
+    <section>
+      <div class="flex flex-col justify-center">
+        <div class=" flex flex-col lg:grid lg:grid-cols-2">
+          <div class="p-10 lg:mx-28 lg:mt-16 border-solid border-2 border-white-600 rounded-lg">
+            <!-- 1st --> 
+            <div class="card w-70 lg:w-96 bg-color-primary mb-5">
+              <div class="card-body">
+                <img class="w-10" src="./Images/Group 1171275317.png" alt="Phone Pic">
+                <p class="font-primary text-base font-normal leading-8">Phone Number:</p>
+                <p class="font-primary-1 text-lg font-extrabold leading-8">01733256209</p>
+                
+              </div>
+            </div>
+            <!-- 2nd -->
+            <div class="card w-70 lg:w-96 bg-color-primary-1 mb-5">
+              <div class="card-body">
+                <img class="w-10" src="./Images/Group 1171275318.png" alt="Phone Pic">
+                <p class="font-primary text-base font-normal leading-8">Gmail:</p>
+                <p class="font-primary-1 text-lg font-extrabold leading-8">hockey@gmail.com</p>
+                
+              </div>
+            </div>
+            <!-- 3rd -->
+            <div class="card w-70 lg:w-96 bg-color-primary-2">
+              <div class="card-body">
+                <img class="w-10" src="./Images/Group 1171275321.png" alt="Phone Pic">
+                <p class="font-primary text-base font-normal leading-8">Location:</p>
+                <p class="font-primary-1 text-lg font-extrabold leading-8">Bashundhara R/A</p>
+                
+              </div>
+            </div>
+          
+          
+        </div>
+          <div class="lg:grid lg:grid-cols-2 gap-8 p-10">
+            <div>
+              <label for="name" class="text-font-primary-1 text-xl font-bold">Your Name</label> <br>
+              <input class="bg-input-primary w-full px-5 py-6 my-4 border-solid rounded-lg" type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div>
+              <label for="mail" class="text-font-primary-1 text-xl font-bold">Your Email</label> <br>
+              <input class="bg-input-primary w-full px-5 py-6 my-4 border-solid rounded-lg" type="email" name="mail" id="mail" placeholder="Enter your Email">
+            </div>
+            <div>
+              <label for="sub" class="text-font-primary-1 text-xl font-bold">Subject</label> <br>
+              <input class="bg-input-primary w-full px-5 py-6 my-4 border-solid rounded-lg" type="text" name="sub" id="sub" placeholder="Enter your Subject">
+            </div>
+            <div>
+              <label for="num" class="text-font-primary-1 text-xl font-bold">Subject</label><br>
+              <input class="bg-input-primary w-full px-5 py-6 my-4 border-solid rounded-lg" type="text" name="num" id="num" placeholder="Enter your Number">
+            </div>
+            <div>
+              <p><label for="msg" class="text-font-primary-1 text-xl font-bold">Message</label></p>
+              <textarea class="bg-input-primary px-5 py-6 my-4 border-solid rounded-lg w-full lg:w-[620px] lg:h-[300px]" name="message" id="msg" cols="30" rows="10">Write your message</textarea>
+            </div> <br>
+            <div class=" flex ml-12 lg:ml-24">
+              <button class="btn bg-hockeys-primary text-white lg:w-[400px] lg:h-[50px]">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="mt-16 mb-10">
+      <div class="text-center mb-8">
+        <h3 class="text-2xl font-extrabold text-font-primary-1 mb-6">Social Media</h3>
+        <div class="inline-flex gap-x-5">
+
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-github"></a>
+          <div>
+            
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
   </main>
 
   <!-- Footer -->
